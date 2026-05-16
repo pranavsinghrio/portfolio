@@ -399,6 +399,7 @@ body {
   border-radius: 50%;
   border: 1.5px dashed rgba(99, 102, 241, 0.28);
   z-index: 1;
+  transform: translate(-50%, -50%);
   animation: orbitSpin var(--speed, 30s) linear infinite;
   will-change: transform;
 }
@@ -484,10 +485,13 @@ body {
   left: 50%;
   width: var(--ring);
   height: var(--ring);
+  max-width: var(--ring);
+  max-height: var(--ring);
   transform: translate(-50%, -50%);
   z-index: 1;
   animation: textRingSpin 22s linear infinite;
   pointer-events: none;
+  overflow: visible;
 }
 
 .text-ring text {
@@ -509,14 +513,15 @@ body {
   left: 50%;
   width: var(--photo);
   height: var(--photo);
-  transform: translate(-50%, -50%);
+  margin-top: calc(var(--photo) / -2);
+  margin-left: calc(var(--photo) / -2);
   z-index: 3;
   animation: corePulse 5s ease-in-out infinite;
 }
 
 @keyframes corePulse {
-  0%, 100% { transform: translate(-50%, -50%) scale(1); }
-  50%     { transform: translate(-50%, -50%) scale(1.03); }
+  0%, 100% { transform: scale(1); }
+  50%     { transform: scale(1.03); }
 }
 
 .profile-img {
