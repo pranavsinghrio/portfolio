@@ -1,6 +1,3 @@
-// Year
-document.getElementById('year').textContent = new Date().getFullYear();
-
 // Theme toggle (persists in localStorage)
 const themeToggle = document.getElementById('themeToggle');
 const stored = localStorage.getItem('theme');
