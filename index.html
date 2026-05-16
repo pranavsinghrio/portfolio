@@ -12,8 +12,12 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-spot" id="cursorSpot"></div>
   <div class="bg-grid"></div>
   <div class="bg-glow"></div>
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
 
   <nav class="nav">
     <div class="nav-inner">
@@ -87,13 +91,50 @@
           </div>
         </div>
         <div class="hero-visual">
-          <div class="profile-frame">
-            <div class="profile-ring"></div>
-            <img src="assets/profile.png" alt="Pranav Singh" class="profile-img" />
-            <div class="profile-badges">
-              <span class="float-badge badge-1">☕ Java 21</span>
-              <span class="float-badge badge-2">🌱 Spring Boot</span>
-              <span class="float-badge badge-3">⚡ Microservices</span>
+          <div class="orbital-container">
+            <div class="orbital-glow"></div>
+
+            <div class="orbit orbit-1">
+              <div class="orbit-item" style="--angle: 0deg">
+                <div class="orbit-item-inner"><span class="oi-icon">☕</span><span class="oi-label">JAVA</span></div>
+              </div>
+              <div class="orbit-item" style="--angle: 72deg">
+                <div class="orbit-item-inner"><span class="oi-icon">🌱</span><span class="oi-label">SPRING</span></div>
+              </div>
+              <div class="orbit-item" style="--angle: 144deg">
+                <div class="orbit-item-inner"><span class="oi-icon">☁️</span><span class="oi-label">AWS</span></div>
+              </div>
+              <div class="orbit-item" style="--angle: 216deg">
+                <div class="orbit-item-inner"><span class="oi-icon">🐳</span><span class="oi-label">DOCKER</span></div>
+              </div>
+              <div class="orbit-item" style="--angle: 288deg">
+                <div class="orbit-item-inner"><span class="oi-icon">⚙️</span><span class="oi-label">CI/CD</span></div>
+              </div>
+            </div>
+
+            <div class="orbit orbit-2">
+              <div class="orbit-item" style="--angle: 0deg">
+                <div class="orbit-item-inner"><span class="oi-icon">📨</span><span class="oi-label">KAFKA</span></div>
+              </div>
+              <div class="orbit-item" style="--angle: 120deg">
+                <div class="orbit-item-inner"><span class="oi-icon">⚡</span><span class="oi-label">REDIS</span></div>
+              </div>
+              <div class="orbit-item" style="--angle: 240deg">
+                <div class="orbit-item-inner"><span class="oi-icon">🗄️</span><span class="oi-label">MYSQL</span></div>
+              </div>
+            </div>
+
+            <svg class="text-ring" viewBox="0 0 200 200" aria-hidden="true">
+              <defs>
+                <path id="textRingPath" d="M 100,100 m -88,0 a 88,88 0 1,1 176,0 a 88,88 0 1,1 -176,0" />
+              </defs>
+              <text>
+                <textPath href="#textRingPath">JAVA • BACKEND • MICROSERVICES • SPRING BOOT • CLOUD • </textPath>
+              </text>
+            </svg>
+
+            <div class="profile-core">
+              <img src="assets/profile.png" alt="Pranav Singh" class="profile-img" />
             </div>
           </div>
         </div>
