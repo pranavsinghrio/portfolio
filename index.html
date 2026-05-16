@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pranav Singh — Java Backend Developer specializing in Spring Boot, Microservices, and Cloud-native systems." />
+  <meta name="author" content="Pranav Singh" />
+  <title>Pranav Singh • Java Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span class="brand-name">Pranav Singh</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-badge">
+            <span class="pulse"></span>
+            Available for new opportunities
+          </span>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Pranav Singh</span>
+          </h1>
+          <h2 class="hero-subtitle">Java Backend Developer</h2>
+          <p class="hero-tagline">
+            Building scalable, secure & high-performance microservices with
+            <span class="accent">Spring Boot</span>,
+            <span class="accent">Kafka</span>, and
+            <span class="accent">Cloud-native</span> architectures.
+          </p>
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">45%</div>
+              <div class="stat-label">API Latency Reduced</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">40%</div>
+              <div class="stat-label">Infra Cost Saved</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">99.9%</div>
+              <div class="stat-label">Uptime</div>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/pranavsinghrio" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/pranav-singh" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="mailto:pranavsinghruhela@gmail.com" aria-label="Email">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="code-window">
+            <div class="code-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-title">PranavSingh.java</span>
+            </div>
+            <pre class="code-body"><span class="kw">public class</span> <span class="cls">PranavSingh</span> {
+  <span class="kw">private</span> String role = <span class="str">"Java Backend Dev"</span>;
+  <span class="kw">private</span> <span class="kw">int</span> yearsOfExp = <span class="num">3</span>;
+  <span class="kw">private</span> List&lt;String&gt; stack = List.of(
+    <span class="str">"Spring Boot"</span>, <span class="str">"Microservices"</span>,
+    <span class="str">"Kafka"</span>, <span class="str">"Redis"</span>, <span class="str">"AWS"</span>
+  );
+
+  <span class="kw">public</span> String mission() {
+    <span class="kw">return</span> <span class="str">"Build scalable systems"</span>;
+  }
+}</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">01 — About</span>
+          <h2 class="section-title">Professional Summary</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Results-driven <strong>Java Backend Developer</strong> with <strong>3 years</strong> of hands-on
+              experience designing, developing, and deploying scalable, secure, high-performance RESTful
+              microservices and distributed systems for enterprise-grade SaaS applications.
+            </p>
+            <p>
+              I specialize in <strong>Java 8/11/17/21</strong>, <strong>Spring Boot</strong>,
+              <strong>Spring Cloud</strong>, <strong>Spring Security</strong>, <strong>Hibernate/JPA</strong>,
+              <strong>Apache Kafka</strong>, <strong>RabbitMQ</strong>, and event-driven architecture, with
+              working knowledge of <strong>AWS</strong>, <strong>Docker</strong>, and <strong>CI/CD</strong>
+              for cloud-native applications.
+            </p>
+            <p>
+              Proven impact — reduced API latency by <strong>45%</strong>, cut infrastructure costs by
+              <strong>40%</strong>, and strengthened security by <strong>40%</strong> via OAuth2 and JWT.
+              Experienced in production support, incident management, and legacy JDK migration
+              (JDK 8 → JDK 21), maintaining <strong>99.9%+</strong> uptime.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon">⚡</div>
+              <h3>Performance</h3>
+              <p>Reduced API latency by 45% with OpenSearch & Redis caching strategies.</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">🔐</div>
+              <h3>Security</h3>
+              <p>Designed OAuth2 + JWT auth with Spring Security across multi-tenant SaaS.</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">☁️</div>
+              <h3>Cloud Native</h3>
+              <p>AWS (EC2, S3, RDS, Lambda), Docker, GitHub Actions, Jenkins CI/CD.</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">🚀</div>
+              <h3>Scale</h3>
+              <p>Serving 50+ enterprise clients on B2B SaaS integration platform.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">02 — Skills</span>
+          <h2 class="section-title">Technical Stack</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <div class="chips">
+              <span class="chip">Java 8/11/17/21</span>
+              <span class="chip">Groovy</span>
+              <span class="chip">Python</span>
+              <span class="chip">SQL</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Backend Frameworks</h3>
+            <div class="chips">
+              <span class="chip">Spring Boot</span>
+              <span class="chip">Spring MVC</span>
+              <span class="chip">Spring Security</span>
+              <span class="chip">Spring Data JPA</span>
+              <span class="chip">Hibernate ORM</span>
+              <span class="chip">Spring Batch</span>
+              <span class="chip">Spring Cloud</span>
+              <span class="chip">Spring AOP</span>
+              <span class="chip">Microservices</span>
+              <span class="chip">REST</span>
+              <span class="chip">SOAP</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Cloud & DevOps</h3>
+            <div class="chips">
+              <span class="chip">AWS (EC2, S3, RDS)</span>
+              <span class="chip">CloudWatch</span>
+              <span class="chip">Lambda</span>
+              <span class="chip">IAM</span>
+              <span class="chip">WAF</span>
+              <span class="chip">Docker</span>
+              <span class="chip">CI/CD</span>
+              <span class="chip">Jenkins</span>
+              <span class="chip">GitHub Actions</span>
+              <span class="chip">Maven</span>
+              <span class="chip">Gradle</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Databases</h3>
+            <div class="chips">
+              <span class="chip">MySQL</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">Oracle</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">Redis</span>
+              <span class="chip">OpenSearch</span>
+              <span class="chip">Elasticsearch</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Messaging & Streaming</h3>
+            <div class="chips">
+              <span class="chip">Apache Kafka</span>
+              <span class="chip">RabbitMQ</span>
+              <span class="chip">Event-Driven</span>
+              <span class="chip">Pub/Sub</span>
+              <span class="chip">Async Messaging</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Security</h3>
+            <div class="chips">
+              <span class="chip">OAuth2</span>
+              <span class="chip">JWT</span>
+              <span class="chip">Spring Security</span>
+              <span class="chip">SSL/TLS</span>
+              <span class="chip">RBAC</span>
+              <span class="chip">Multi-Tenant</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>AI Integration</h3>
+            <div class="chips">
+              <span class="chip">Spring AI</span>
+              <span class="chip">Claude Code</span>
+              <span class="chip">Gemini</span>
+              <span class="chip">Ollama (Local LLM)</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>API & Tools</h3>
+            <div class="chips">
+              <span class="chip">REST</span>
+              <span class="chip">SOAP</span>
+              <span class="chip">JSON/XML</span>
+              <span class="chip">SFTP</span>
+              <span class="chip">Swagger/OpenAPI</span>
+              <span class="chip">Postman</span>
+              <span class="chip">API Gateway</span>
+              <span class="chip">Feign Client</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">03 — Experience</span>
+          <h2 class="section-title">Work Experience</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="exp-head">
+                <h3>Software Engineer — Java Backend Developer</h3>
+                <span class="exp-period">Feb 2024 – Present</span>
+              </div>
+              <div class="exp-company">
+                <strong>JusTransform</strong> • Remote, India
+              </div>
+              <ul class="exp-points">
+                <li>Architected scalable Java microservices using Spring Boot, Spring Cloud, and REST APIs for an enterprise B2B SaaS integration platform serving <strong>50+ clients</strong>.</li>
+                <li>Designed OAuth2 and JWT-based authentication with Spring Security, improving application security by <strong>40%</strong> and eliminating unauthorized access in production.</li>
+                <li>Built OpenSearch-powered full-text search module managing 50+ Business IDs, improving search accuracy from 60% to <strong>100%</strong> and reducing query latency by <strong>45%</strong>.</li>
+                <li>Engineered Redis caching with TTL-based eviction, reducing MySQL load by <strong>70%</strong> and decreasing lookup response time from 200ms to under <strong>20ms</strong>.</li>
+                <li>Led LookupV3 microservice migration from MongoDB to MySQL, cutting monthly cloud infrastructure costs by <strong>40%</strong>.</li>
+                <li>Upgraded Java codebase from JDK 8 to JDK 21; resolved 3 critical P0/P1 production incidents within SLA, maintaining <strong>99.9%+</strong> uptime.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="exp-head">
+                <h3>Software Engineer — Java Developer</h3>
+                <span class="exp-period">May 2023 – Jan 2024</span>
+              </div>
+              <div class="exp-company">
+                <strong>Alignbits LLC</strong> • Remote, India
+              </div>
+              <ul class="exp-points">
+                <li>Developed RESTful APIs and microservices using Java, Spring Boot, and Spring MVC for multiple client integrations, improving system performance by <strong>20%</strong>.</li>
+                <li>Built Groovy-based integration services and ETL pipelines for data transformation and routing, increasing cross-system throughput by <strong>30%</strong>.</li>
+                <li>Executed Spring Batch pipelines for large-scale data processing workflows, reducing batch execution time by <strong>30%</strong>.</li>
+                <li>Triaged and resolved 30–40% of weekly high-priority production bugs, lowering overall defect rate by <strong>25%</strong>.</li>
+                <li>Wrote unit and integration tests using JUnit 5 and Mockito following TDD; optimized slow SQL queries on MySQL and PostgreSQL via indexing and tuning.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">04 — Projects</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-head">
+              <div class="project-icon">🎬</div>
+              <div>
+                <h3>BookMyShow Clone</h3>
+                <span class="project-sub">Movie Ticket Booking System • Microservices</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              A full-featured movie ticket booking system built with <strong>5 independently deployable microservices</strong>:
+              User, Movie, Ticket, Review, and Notification. Implements service discovery, centralized routing,
+              JWT-based RBAC, and asynchronous email delivery via RabbitMQ.
+            </p>
+            <ul class="project-features">
+              <li>Spring Cloud Eureka for service discovery + API Gateway routing</li>
+              <li>Feign Client for inter-service REST communication</li>
+              <li>JWT auth with role-based access control (RBAC) across all services</li>
+              <li>Dynamic seat pricing (Classic & Premium) with concurrent double-booking prevention</li>
+              <li>RabbitMQ + JavaMailSender for async booking confirmation emails</li>
+            </ul>
+            <div class="chips chips-sm">
+              <span class="chip">Java</span>
+              <span class="chip">Spring Boot</span>
+              <span class="chip">Spring Cloud</span>
+              <span class="chip">Spring Security</span>
+              <span class="chip">JWT</span>
+              <span class="chip">RabbitMQ</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">JPA / Hibernate</span>
+              <span class="chip">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/pranavsinghrio/bookmyshow-clone" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <div class="project-icon">🏦</div>
+              <div>
+                <h3>Banking System</h3>
+                <span class="project-sub">Secure Transactional Backend</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              Spring Boot-based banking application with account management, secure transactions, and JWT authentication.
+            </p>
+            <div class="chips chips-sm">
+              <span class="chip">Spring Boot</span>
+              <span class="chip">Spring Security</span>
+              <span class="chip">JWT</span>
+              <span class="chip">MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/pranavsinghrio/banking-system" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <div class="project-icon">📨</div>
+              <div>
+                <h3>Multi-Protocol Microservices</h3>
+                <span class="project-sub">Event-Driven Communication</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              Microservices ecosystem with REST, gRPC, and Kafka-based async messaging between services.
+            </p>
+            <div class="chips chips-sm">
+              <span class="chip">Spring Cloud</span>
+              <span class="chip">Kafka</span>
+              <span class="chip">gRPC</span>
+              <span class="chip">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/pranavsinghrio/multi-protocol-microservices" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <div class="project-icon">🤖</div>
+              <div>
+                <h3>RAG with Spring AI</h3>
+                <span class="project-sub">LLM-Powered Knowledge Retrieval</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              Retrieval-Augmented Generation pipeline built with Spring AI, integrating local LLMs and vector stores.
+            </p>
+            <div class="chips chips-sm">
+              <span class="chip">Spring AI</span>
+              <span class="chip">Ollama</span>
+              <span class="chip">Vector DB</span>
+              <span class="chip">Java</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/pranavsinghrio/rag-spring-ai" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <div class="project-icon">🐰</div>
+              <div>
+                <h3>RabbitMQ Mastery</h3>
+                <span class="project-sub">Async Messaging Patterns</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              Hands-on implementations of work queues, pub/sub, routing, topics, and RPC with RabbitMQ in Spring Boot.
+            </p>
+            <div class="chips chips-sm">
+              <span class="chip">RabbitMQ</span>
+              <span class="chip">Spring Boot</span>
+              <span class="chip">AMQP</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/pranavsinghrio/rabbitmq-mastery" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <div class="project-icon">🎯</div>
+              <div>
+                <h3>Smart Interview Platform</h3>
+                <span class="project-sub">Tech Interview Prep Tool</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              Platform for technical interview preparation with curated questions and adaptive learning paths.
+            </p>
+            <div class="chips chips-sm">
+              <span class="chip">Spring Boot</span>
+              <span class="chip">REST API</span>
+              <span class="chip">PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/pranavsinghrio/SmartInterviewPlatform" target="_blank" rel="noopener" class="btn btn-ghost">View on GitHub →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">05 — Education</span>
+          <h2 class="section-title">Education & Certifications</h2>
+        </div>
+        <div class="edu-grid">
+          <div class="edu-card">
+            <div class="edu-icon">🎓</div>
+            <h3>Bachelor of Engineering</h3>
+            <p class="edu-meta">Industrial and Production</p>
+            <p class="edu-school">Jabalpur Engineering College, Madhya Pradesh</p>
+            <span class="edu-year">2018 – 2022</span>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon">📜</div>
+            <h3>Java Backend Development</h3>
+            <p class="edu-meta">Certification</p>
+            <p class="edu-school">AccioJob</p>
+            <span class="edu-year">2022</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">06 — Contact</span>
+          <h2 class="section-title">Let's Build Something</h2>
+        </div>
+        <div class="contact-card">
+          <p class="contact-lead">
+            Open to remote opportunities & relocation. Let's discuss how I can help build your next scalable system.
+          </p>
+          <div class="contact-grid">
+            <a href="mailto:pranavsinghruhela@gmail.com" class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <div class="contact-label">Email</div>
+                <div class="contact-value">pranavsinghruhela@gmail.com</div>
+              </div>
+            </a>
+            <a href="tel:+918269338614" class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <div class="contact-label">Phone</div>
+                <div class="contact-value">+91 8269 338 614</div>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/pranav-singh" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-icon">💼</div>
+              <div>
+                <div class="contact-label">LinkedIn</div>
+                <div class="contact-value">linkedin.com/in/pranav-singh</div>
+              </div>
+            </a>
+            <a href="https://github.com/pranavsinghrio" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-icon">💻</div>
+              <div>
+                <div class="contact-label">GitHub</div>
+                <div class="contact-value">github.com/pranavsinghrio</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Pranav Singh. Crafted with Java, Coffee & GitHub Actions.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
